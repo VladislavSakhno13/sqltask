@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^rest/gold/?$ rest/gold.php
+RewriteRule ^rest/gold/([0-9]+)?$ rest/gold.php?id=$1
+
